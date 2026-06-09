@@ -1,8 +1,10 @@
 node_modules/
 src/
 dist/
+bin/
 scripts/
 .env*
 .DS_Store
 *.log
 *.tgz
+CLAUDE.md
