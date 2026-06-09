@@ -1,0 +1,48 @@
+{
+  "name": "gpusmarket-host",
+  "version": "1.1.0",
+  "description": "List your GPU on GPUsMarket in one command. Auto-installs Ollama or llama.cpp, pulls models, connects tunnel.",
+  "bin": {
+    "gpusmarket-host": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "javascript-obfuscator src/detect.js --output dist/detect.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node && javascript-obfuscator src/recommend.js --output dist/recommend.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node && javascript-obfuscator src/installer.js --output dist/installer.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node && javascript-obfuscator src/modelPuller.js --output dist/modelPuller.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node && javascript-obfuscator src/serverManager.js --output dist/serverManager.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node && javascript-obfuscator src/tunnel.js --output dist/tunnel.js --compact true --control-flow-flattening true --control-flow-flattening-threshold 0.5 --dead-code-injection true --dead-code-injection-threshold 0.2 --string-array true --string-array-encoding base64 --string-array-threshold 0.8 --rename-globals false --self-defending false --identifier-names-generator hexadecimal --target node",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "gpu",
+    "ollama",
+    "llama-cpp",
+    "llama.cpp",
+    "hosting",
+    "ai",
+    "inference",
+    "marketplace",
+    "gpu-rental",
+    "self-hosted",
+    "llm",
+    "gguf",
+    "earn",
+    "passive-income"
+  ],
+  "author": "Joe Wee <joe@tyga.cloud>",
+  "license": "SEE LICENSE IN LICENSE",
+  "copyright": "Copyright (c) 2026 Tyga.Cloud Ltd",
+  "homepage": "https://gpusmarket.com",
+  "repository": {
+    "type": "git",
+    "url": "https://gpusmarket.com"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

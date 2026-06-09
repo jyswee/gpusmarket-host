@@ -1,0 +1,78 @@
+gpusmarket-host — Proprietary Software License
+
+Copyright (c) 2026 Tyga.Cloud Ltd (company number 14643275, registered in
+England and Wales). All rights reserved.
+
+1. GRANT OF LICENSE
+
+Permission is hereby granted to any person obtaining a copy of this software
+("gpusmarket-host") to use it solely for the purpose of connecting GPU hardware
+to the GPUsMarket platform (https://gpusmarket.com) operated by Tyga.Cloud Ltd.
+
+2. RESTRICTIONS
+
+You may NOT:
+  a) Modify, adapt, translate, or create derivative works of this software.
+  b) Reverse engineer, decompile, disassemble, or otherwise attempt to derive
+     the source code of this software.
+  c) Redistribute, sublicense, sell, lease, rent, or transfer this software
+     or any portion of it to any third party.
+  d) Use this software to connect to any platform, service, or API other than
+     GPUsMarket (https://gpusmarket.com).
+  e) Remove or alter any proprietary notices, labels, or marks on this software.
+  f) Use this software for any unlawful purpose or in violation of applicable
+     laws or regulations.
+
+3. INDEMNIFICATION
+
+You agree to indemnify, defend, and hold harmless Tyga.Cloud Ltd, its
+directors, officers, employees, agents, and affiliates from and against any
+and all claims, damages, losses, liabilities, costs, and expenses (including
+reasonable legal fees) arising out of or relating to:
+  a) Your use or misuse of this software.
+  b) Your violation of any term of this license.
+  c) Any third-party claims arising from your use of GPUsMarket services
+     accessed through this software.
+  d) Any data breach, security incident, or unauthorised access affecting
+     renter data on hardware connected via this software.
+
+4. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+TYGA.CLOUD LTD BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA,
+BUSINESS OPPORTUNITIES, OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH
+THE USE OF THIS SOFTWARE, REGARDLESS OF THE THEORY OF LIABILITY.
+
+TYGA.CLOUD LTD'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU
+HAVE RECEIVED FROM TYGA.CLOUD LTD THROUGH THE GPUSMARKET PLATFORM IN THE
+TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+5. DISCLAIMER OF WARRANTIES
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF
+ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT.
+
+TYGA.CLOUD LTD DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED,
+ERROR-FREE, OR FREE OF HARMFUL COMPONENTS.
+
+6. TERMINATION
+
+This license is effective until terminated. It will terminate automatically
+if you fail to comply with any term of this license. Upon termination, you
+must cease all use of the software and destroy all copies.
+
+7. GOVERNING LAW
+
+This license shall be governed by and construed in accordance with the laws
+of England and Wales. Any disputes shall be subject to the exclusive
+jurisdiction of the courts of England and Wales.
+
+8. CONTACT
+
+Tyga.Cloud Ltd
+Ground Floor, Unit 2 Mallard Court, Mallard Way
+Crewe Business Park, Crewe, Cheshire, CW1 6ZQ
+Email: joe@tyga.cloud

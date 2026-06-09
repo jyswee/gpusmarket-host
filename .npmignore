@@ -1,0 +1,8 @@
+src/
+test/
+.git/
+.gitignore
+.env
+node_modules/
+*.md
+!README.md
